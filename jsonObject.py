@@ -24,4 +24,13 @@ def translate(word):
 
 theWord = input('Enter a word: ')
 
-print(translate(theWord))
+# print(translate(theWord))
+output = translate(theWord)
+
+if isinstance(output, list):
+    for definition in output:
+        print(definition)
+elif isinstance(output, str):
+    print(output)
+else:
+    print(output)
