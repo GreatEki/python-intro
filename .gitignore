@@ -1,1 +1,3 @@
 *.log
+virtual/*
+# virtual/Lib/site-packages/*
