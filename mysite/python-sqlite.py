@@ -39,7 +39,7 @@ def update(quantity, price, item):
     connection.commit()
     connection.close()
 
-update(11, 6, 'Water Glass')
+# update(11, 6, 'Water Glass')
 # delete('Wine Glass')
-print(view())
+# print(view())
 # insert("Coffee Cup", 10, 5)

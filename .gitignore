@@ -2,3 +2,4 @@
 virtual/*
 .vscode
 # virtual/Lib/site-packages/*
+python-postgres.py
